@@ -11,6 +11,7 @@ button.onclick = function(){
 } else{
     body.style.backgroundColor = 'rgb(49, 49, 49)';
    }
+   let audio = new Audio('switch.mp3');
    audio.play();
         
 }

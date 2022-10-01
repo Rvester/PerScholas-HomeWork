@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body, html{
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    color:whitesmoke;
+
+    
+}
+
+a{
+    text-decoration:none;
+    color:red;
+}
+
+h1{
+    font-family: 'Nabla', cursive;
+}
+
+.bg {
+    background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+.bg:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+button{
+    border-radius: 12px;
+}
+
+input[type=submit]{
+    border-radius: 12px;
+}
+
+
+

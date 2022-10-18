@@ -21,8 +21,8 @@ export default function Score ({question}) {
         <>
         <h1><span>Current Score:</span> {score} </h1>
         <div id='scorebuttons'>
-            <button id='scoreup' onClick={scoreUp}>Add Points</button>
-            <button id='scoredown' onClick={scoreDown}>Deduct Points</button>
+            <button id='scoredown' onClick={scoreDown}>Decrease</button>
+            <button id='scoreup' onClick={scoreUp}>Increase</button>
             <button id='resetscore' onClick={scoreReset}> Reset </button>
         </div>
         </>

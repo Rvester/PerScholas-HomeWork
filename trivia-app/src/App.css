@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+.App{
+    text-align: center;
+}
+#scoreup{
+    background-color: greenyellow;
+    margin:5px;
+    font-size: 20px;
+    border: solid 2px;
+}
+#scoreup:hover{
+    background-color: green;
+}
+
+#scoredown{
+    background-color: red;
+    margin: 5px;
+    font-size: 20px;
+    border: solid 2px;
+}
+#scoredown:hover{
+    background-color: brown;
+}
+#resetscore{
+    background-color: azure;
+    margin: 5px;
+    font-size: 20px;
+    border: solid 2px;
+}
+#resetscore:hover{
+    background-color: gainsboro;
+}
+button{
+    border-radius:16px;
+    padding: 10px 20px;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 30px;
+    background-color: yellow;
+}
+button:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+span{
+    font-size: 45px;
+    color: darkgoldenrod;
+}
